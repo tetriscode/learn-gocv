@@ -26,6 +26,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
+
 	defer webcam.Close()
 
 	// open display window

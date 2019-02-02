@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("How to run:\n\tshowimage [path to image]")
+		fmt.Println("How to run:\n\tshowvideo [path to video]")
 		return
 	}
 
@@ -17,7 +17,7 @@ func main() {
 	image := os.Args[1]
 
 	//Create a Window
-	window := gocv.NewWindow("Show Image")
+	window := gocv.NewWindow("Show Video")
 
 	//Read Image into Matrix
 	mat := gocv.IMRead(image, gocv.IMReadColor)
