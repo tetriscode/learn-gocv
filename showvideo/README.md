@@ -1,7 +1,7 @@
-### Show Image
+### Show Video
 
 To run
 
-`go run ./showimage/main.go <path to image>`
+`go run ./showvideo/main.go <path to image>`
 
 Click Escape to Close the window
